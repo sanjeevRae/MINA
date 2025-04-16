@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="MINA - Healthcare at your fingertips"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
+    <title>MINA - Healthcare at your fingertips</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.pdfjsLib) {
+          console.log("PDF.js library loaded successfully");
+          window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
+        } else {
+          console.error("PDF.js library failed to load");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <noscript>My Intelligent Nursing Assistance </noscript>
+    <div id="root"></div>
+    
+  </body>
+</html>

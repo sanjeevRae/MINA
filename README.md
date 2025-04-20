@@ -1,3 +1,5 @@
+![forgit](https://github.com/sanjeevRae/MINA/blob/main/client/src/assets/Screenshot%202025-04-20%20163651.png)
+![forgit](https://github.com/sanjeevRae/MINA/blob/main/client/src/assets/Screenshot%202025-04-20%20163734.png)
 # MINA: My Intelligent Nursing Assistance
 
 **MINA** is a modern and intelligent telemedicine platform developed as a university project, hackthon project to offer a seamless experience for online medical consultations, appointment bookings, and AI-assisted healthcare support.
